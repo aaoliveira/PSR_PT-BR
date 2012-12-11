@@ -76,7 +76,7 @@ class Foo extends Bar implements FooInterface
 
     final public static function bar()
     {
-        // method body
+        // corpo do método
     }
 }
 ```
@@ -154,7 +154,7 @@ use FooClass;
 use BarClass as Bar;
 use OtherVendor\OtherPackage\BazClass;
 
-// ... additional PHP code ...
+// ... código PHP adcional ...
 
 ```
 
@@ -182,7 +182,7 @@ use OtherVendor\OtherPackage\BazClass;
 
 class ClassName extends ParentClass implements \ArrayAccess, \Countable
 {
-    // constants, properties, methods
+    // constantes, propriedades e métodos
 }
 ```
 
@@ -203,7 +203,7 @@ class ClassName extends ParentClass implements
     \Countable,
     \Serializable
 {
-    // constants, properties, methods
+    // constantes, propriedades e métodos
 }
 ```
 
@@ -253,7 +253,7 @@ class ClassName
 {
     public function fooBarBaz($arg1, &$arg2, $arg3 = [])
     {
-        // method body
+        // corpo do método
     }
 }
 ```
@@ -274,7 +274,7 @@ class ClassName
 {
     public function foo($arg1, &$arg2, $arg3 = [])
     {
-        // method body
+        // corpo do método
     }
 }
 ```
@@ -298,7 +298,7 @@ class ClassName
         &$arg2,
         array $arg3 = []
     ) {
-        // method body
+        // corpo do método
     }
 }
 ```
@@ -323,7 +323,7 @@ abstract class ClassName
 
     final public static function bar()
     {
-        // method body
+        // corpo do método
     }
 }
 ```
@@ -432,7 +432,7 @@ parentheses, spaces, and braces.
 ```php
 <?php
 while ($expr) {
-    // structure body
+    // estrutura
 }
 ```
 
@@ -442,7 +442,7 @@ of parentheses, spaces, and braces.
 ```php
 <?php
 do {
-    // structure body;
+    // estrutura;
 } while ($expr);
 ```
 
