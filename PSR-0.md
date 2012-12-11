@@ -1,5 +1,4 @@
-The following describes the mandatory requirements that must be adhered
-to for autoloader interoperability.
+A seguir, o manual com os requisitos obrigatórios que devem ser seguidos para a interoperabilidade de autocarregamento (autoloading).
 
 Mandatory
 ---------
