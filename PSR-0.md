@@ -1,10 +1,9 @@
 A seguir, o manual com os requisitos obrigatórios que devem ser seguidos para a interoperabilidade de autocarregamento (autoloading).
 
-Mandatory
+Obrigatório
 ---------
 
-* A fully-qualified namespace and class must have the following
-  structure `\<Vendor Name>\(<Namespace>\)*<Class Name>`
+* Uma namespace totalmente qualificada e as classes devem seguir a seguinte estrutura `\<Nome do Fabricante>\(<Namespace>\)*<Nome da Classe>`
 * Each namespace must have a top-level namespace ("Vendor Name").
 * Each namespace can have as many sub-namespaces as it wishes.
 * Each namespace separator is converted to a `DIRECTORY_SEPARATOR` when
