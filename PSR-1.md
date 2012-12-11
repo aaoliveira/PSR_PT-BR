@@ -51,19 +51,19 @@ um exemplo de que deve ser evitado:
 
 ```php
 <?php
-// side effect: change ini settings
+// efeito secundário: mudança nas configurações ini
 ini_set('error_reporting', E_ALL);
 
-// side effect: loads a file
+// efeito secundário: carregamento de arquivo
 include "file.php";
 
-// side effect: generates output
+// efeito secundário: geração de output
 echo "<html>\n";
 
-// declaration
+// declaração
 function foo()
 {
-    // function body
+    // corpo da função
 }
 ```
 
@@ -71,17 +71,17 @@ A seguir está um exemplo de um arquivo, com declarações sem efeitos secundár
 
 ```php
 <?php
-// declaration
+// declaração
 function foo()
 {
-    // function body
+    // corpo da função
 }
 
-// conditional declaration is *not* a side effect
+// declaração condicional não é um efeito secundário
 if (! function_exists('bar')) {
     function bar()
     {
-        // function body
+        // corpo da função
     }
 }
 ```
