@@ -13,8 +13,8 @@ to have one set of guidelines to be used among all those projects. Thus, the
 benefit of this guide is not in the rules themselves, but in the sharing of
 those rules.
 
-[PSR-0]: https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-0.md
-[PSR-1]: https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-1-basic-coding-standard.md
+[PSR-0]: https://github.com/enricopereira/PSR_PT-BR/blob/master/PSR-0.md
+[PSR-1]: https://github.com/enricopereira/PSR_PT-BR/blob/master/PSR-1.md
 
 
 1. Visão geral
