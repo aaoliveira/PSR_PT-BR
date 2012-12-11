@@ -128,7 +128,7 @@ PHP [keywords][] MUST be in lower case.
 
 The PHP constants `true`, `false`, and `null` MUST be in lower case.
 
-[keywords]: http://php.net/manual/en/reserved.keywords.php
+[keywords]: http://php.net/manual/pt_BR/reserved.keywords.php
 
 
 
