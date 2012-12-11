@@ -8,7 +8,7 @@ interoperability between shared PHP code.
 [PSR-0]: https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-0.md
 
 
-1. Overview
+1. Visão geral
 -----------
 
 - Files MUST use only `<?php` and `<?=` tags.
@@ -28,7 +28,7 @@ interoperability between shared PHP code.
 - Method names MUST be declared in `camelCase`.
 
 
-2. Files
+2. Arquivos
 --------
 
 ### 2.1. PHP Tags
@@ -97,7 +97,7 @@ if (! function_exists('bar')) {
 ```
 
 
-3. Namespace and Class Names
+3. Namespace e nomes de classes
 ----------------------------
 
 Namespaces and classes MUST follow [PSR-0][].
@@ -132,7 +132,7 @@ class Vendor_Model_Foo
 }
 ```
 
-4. Class Constants, Properties, and Methods
+4. Constantes de classes, propriedades e métodos
 -------------------------------------------
 
 The term "class" refers to all classes, interfaces, and traits.
