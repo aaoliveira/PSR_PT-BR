@@ -1,9 +1,7 @@
 Padrão básico de codificação
 =====================
 
-This section of the standard comprises what should be considered the standard
-coding elements that are required to ensure a high level of technical
-interoperability between shared PHP code.
+Esta seção do padrão compreende o que deve ser considerado dos elementos padrões de codificação que são necessários para um alto nível de interoperabilidade técnica entre código PHP compartilhado.
 
 [PSR-0]: https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-0.md
 
