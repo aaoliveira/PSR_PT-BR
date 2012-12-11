@@ -102,7 +102,7 @@ For example:
 
 ```php
 <?php
-// PHP 5.3 and later:
+// PHP 5.3 e superior:
 namespace Vendor\Model;
 
 class Foo
@@ -114,7 +114,7 @@ Código escrito para PHP 5.2.x ou inferior deve utilizar a convenção pseudo-na
 
 ```php
 <?php
-// PHP 5.2.x and earlier:
+// PHP 5.2.x e inferior:
 class Vendor_Model_Foo
 {
 }
