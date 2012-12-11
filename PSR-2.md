@@ -1,17 +1,12 @@
 Guia de estilo de código
 ==================
 
-This guide extends and expands on [PSR-1][], the basic coding standard.
+Este guia estende e expande sobre a [PSR-1][], os padrões básicos de codificação.
 
-The intent of this guide is to reduce cognitive friction when scanning code
-from different authors. It does so by enumerating a shared set of rules and
-expectations about how to format PHP code.
+A intenção deste guia é reduzir a fricção cognitiva durante a codificação de diferentes autores. Ele faz isso por enumerar um conjunto compartilhado de regras e
+expectativas sobre como formatar o código PHP.
 
-The style rules herein are derived from commonalities among the various member
-projects. When various authors collaborate across multiple projects, it helps
-to have one set of guidelines to be used among all those projects. Thus, the
-benefit of this guide is not in the rules themselves, but in the sharing of
-those rules.
+As regras de estilo daqui são derivadas de semelhanças entre membros de vários projetos. Quando vários autores colaboram em vários projetos, ajuda a ter um conjunto de diretrizes para serem usadas em todos os projetos. Assim, o benefício deste guia não está nas regras em si, mas sim no compartilhamento dessas regras.
 
 [PSR-0]: https://github.com/enricopereira/PSR_PT-BR/blob/master/PSR-0.md
 [PSR-1]: https://github.com/enricopereira/PSR_PT-BR/blob/master/PSR-1.md
