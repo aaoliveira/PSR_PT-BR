@@ -29,30 +29,25 @@ Esta seção do padrão compreende o que deve ser considerado dos elementos padr
 
 ### 2.1. Tags PHP
 
-PHP code MUST use the long `<?php ?>` tags or the short-echo `<?= ?>` tags; it
-MUST NOT use the other tag variations.
+Código PHP deve usar as tags longas `<?php ?>` ou a short-tags para echo `<?= ?>`; não deve se utilizar outras tags.
 
 ### 2.2. Codificação de caracteres
 
-PHP code MUST use only UTF-8 without BOM.
+Código PHP deve usar apenas UTF-8 sem BOM.
 
 ### 2.3. Efeitos secundários
 
-A file SHOULD declare new symbols (classes, functions, constants,
-etc.) and cause no other side effects, or it SHOULD execute logic with side
-effects, but SHOULD NOT do both.
 
-The phrase "side effects" means execution of logic not directly related to
-declaring classes, functions, constants, etc., *merely from including the
-file*.
+Um arquivo deve declarar novos símbolos (classes, funções, contantes, etc.) e não causar outros efeitos, ou ele deve executar lógica com outros efeitos, mas não deve fazer ambos.
 
-"Side effects" include but are not limited to: generating output, explicit
-use of `require` or `include`, connecting to external services, modifying ini
-settings, emitting errors or exceptions, modifying global or static variables,
-reading from or writing to a file, and so on.
+A expressão "efeitos secundários" significa a execução da lógica não diretamente ligada com
+declaração de classes, funções, constantes, etc, apenas de incluir o arquivo.
 
-The following is an example of a file with both declarations and side effects;
-i.e, an example of what to avoid:
+"Efeitos secundários" incluem, mas não estão limitados a: A geração do output, uso explícito de `require` ou `include`, conexão a serviços externos, modificação de configurações ini, emissão erros ou exceções, modificação das variáveis ​​globais ou estáticas,
+ler ou escrever em um arquivo, e assim por diante.
+
+A seguir está um exemplo de um arquivo, com tanto as declarações e efeitos secundários;
+um exemplo de que deve ser evitado:
 
 ```php
 <?php
@@ -72,8 +67,7 @@ function foo()
 }
 ```
 
-The following example is of a file that contains declarations without side
-effects; i.e., an example of what to emulate:
+A seguir está um exemplo de um arquivo, com declarações sem efeitos secundários; um exemplo do que deve ser feito:
 
 ```php
 <?php
