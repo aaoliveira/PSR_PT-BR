@@ -123,12 +123,12 @@ class Vendor_Model_Foo
 4. Constantes de classes, propriedades e métodos
 -------------------------------------------
 
-The term "class" refers to all classes, interfaces, and traits.
+O termo "classes" se refere a todas as classes, interfaces e traits.
 
 ### 4.1. Constantes
 
-Class constants MUST be declared in all upper case with underscore separators.
-For example:
+Constantes de classes devem ser declaradas em letra maiúscula separado por underlines.
+Por exemplo:
 
 ```php
 <?php
@@ -141,15 +141,14 @@ class Foo
 }
 ```
 
-### 4.2. propriedades
+### 4.2. Propriedades
 
-This guide intentionally avoids any recommendation regarding the use of
-`$StudlyCaps`, `$camelCase`, or `$under_score` property names.
+Este guia intencionalmente evita qualquer recomendação sobre o uso de
+`$StudlyCaps`, `$camelCase`, ou `$under_score` em nomes de propriedades.
 
-Whatever naming convention is used SHOULD be applied consistently within a
-reasonable scope. That scope may be vendor-level, package-level, class-level,
-or method-level.
+Seja qual for convenção de nomenclatura usada, ela deve ser aplicada de forma consistente dentro de um
+alcance razoável. Esse escopo pode ser a nível de fornecedor, pacote, classe ou método.
 
 ### 4.3. Métodos
 
-Method names MUST be declared in `camelCase()`.
+Métodos devem ser declarados em `camelCase()`.
