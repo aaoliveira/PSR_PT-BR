@@ -147,7 +147,7 @@ Este guia intencionalmente evita qualquer recomendação sobre o uso de
 `$StudlyCaps`, `$camelCase`, ou `$under_score` em nomes de propriedades.
 
 Seja qual for convenção de nomenclatura usada, ela deve ser aplicada de forma consistente dentro de um
-alcance razoável. Esse escopo pode ser a nível de fornecedor, pacote, classe ou método.
+escopo razoável. Esse escopo pode ser a nível de fornecedor, pacote, classe ou método.
 
 ### 4.3. Métodos
 
