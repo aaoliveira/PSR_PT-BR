@@ -7,6 +7,6 @@ Caso você queira postar alguma sugestão, correção de grafia, alertar traduç
 
 Link para as PSRs originais (em inglês):
 
-PSR-0: [clique aqui][https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-0.md]
-PSR-1: [clique aqui][https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-1-basic-coding-standard.md]
-PSR-2: [clique aqui][https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-2-coding-style-guide.md]
+PSR-0: [clique aqui](https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-0.md)
+PSR-1: [clique aqui](https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-1-basic-coding-standard.md)
+PSR-2: [clique aqui](https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-2-coding-style-guide.md)
