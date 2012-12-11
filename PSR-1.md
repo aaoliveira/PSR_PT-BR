@@ -46,7 +46,7 @@ declaração de classes, funções, constantes, etc, apenas de incluir o arquivo
 "Efeitos secundários" incluem, mas não estão limitados a: A geração do output, uso explícito de `require` ou `include`, conexão a serviços externos, modificação de configurações ini, emissão erros ou exceções, modificação das variáveis ​​globais ou estáticas,
 ler ou escrever em um arquivo, e assim por diante.
 
-A seguir está um exemplo de um arquivo, com tanto as declarações e efeitos secundários;
+A seguir está um exemplo de um arquivo, com as declarações e efeitos secundários;
 um exemplo de que deve ser evitado:
 
 ```php
