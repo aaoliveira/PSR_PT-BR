@@ -1,4 +1,4 @@
-Basic Coding Standard
+Padrão básico de codificação
 =====================
 
 This section of the standard comprises what should be considered the standard
