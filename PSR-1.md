@@ -90,14 +90,13 @@ if (! function_exists('bar')) {
 3. Namespace e nomes de classes
 ----------------------------
 
-Namespaces and classes MUST follow [PSR-0][].
+Namespaces e classes devem seguir a [PSR-0][].
 
-This means each class is in a file by itself, and is in a namespace of at
-least one level: a top-level vendor name.
+Isto significa que cada classe está em um arquivo, por si mesmo, e é em um espaço de pelo menos um nível: um nível superior com o nome do fornecedor.
 
-Class names MUST be declared in `StudlyCaps`.
+Classes devem ser declaradas em `StudlyCaps`.
 
-Code written for PHP 5.3 and after MUST use formal namespaces.
+Código escrito para PHP 5.3 ou superior deve utilizar namespaces reais.
 
 For example:
 
@@ -111,8 +110,7 @@ class Foo
 }
 ```
 
-Code written for 5.2.x and before SHOULD use the pseudo-namespacing convention
-of `Vendor_` prefixes on class names.
+Código escrito para PHP 5.2.x ou inferior deve utilizar a convenção pseudo-namespace do `Vendor_` prefixando nos nomes das classes.
 
 ```php
 <?php
