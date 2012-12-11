@@ -98,7 +98,7 @@ Classes devem ser declaradas em `StudlyCaps`.
 
 Código escrito para PHP 5.3 ou superior deve utilizar namespaces reais.
 
-For example:
+Por exemplo:
 
 ```php
 <?php
