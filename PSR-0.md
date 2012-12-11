@@ -26,16 +26,13 @@ Underlines em namespaces e em nomes de classes
 * `\namespace\package\Class_Name` => `/caminho/para/o/projeto/lib/vendor/namespace/package/Class/Name.php`
 * `\namespace\package_name\Class_Name` => `/caminho/para/o/projeto/lib/vendor/namespace/package_name/Class/Name.php`
 
-The standards we set here should be the lowest common denominator for
-painless autoloader interoperability. You can test that you are
-following these standards by utilizing this sample SplClassLoader
-implementation which is able to load PHP 5.3 classes.
+Os padrões que definimos aqui devem ser o menor denominador comum para
+uma indolor interoperabilidade de autocarregamento. Você pode testar se está seguindo esses padrões, utilizando esta amostra da implementação da SplClassLoader que é capaz de carregar classes do PHP 5.3.
 
-Example Implementation
+Exemplo de implementação
 ----------------------
 
-Below is an example function to simply demonstrate how the above
-proposed standards are autoloaded.
+Abaixo está um exemplo de função para simplesmente demonstrar como os padrões propostos acima são autocarregados.
 ```php
 <?php
 
@@ -55,7 +52,7 @@ function autoload($className)
 }
 ```
 
-SplClassLoader Implementation
+Implementação da SplClassLoader
 -----------------------------
 
 The following gist is a sample SplClassLoader implementation that can
