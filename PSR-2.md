@@ -17,7 +17,7 @@ those rules.
 [PSR-1]: https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-1-basic-coding-standard.md
 
 
-1. Overview
+1. Visão geral
 -----------
 
 - Code MUST follow [PSR-1][].
@@ -81,7 +81,7 @@ class Foo extends Bar implements FooInterface
 }
 ```
 
-2. General
+2. Geral
 ----------
 
 ### 2.1 Basic Coding Standard
@@ -132,7 +132,7 @@ The PHP constants `true`, `false`, and `null` MUST be in lower case.
 
 
 
-3. Namespace and Use Declarations
+3. Namespace e declarações de 'use'
 ---------------------------------
 
 When present, there MUST be one blank line after the `namespace` declaration.
@@ -159,7 +159,7 @@ use OtherVendor\OtherPackage\BazClass;
 ```
 
 
-4. Classes, Properties, and Methods
+4. Classes, propriedades e métodos
 -----------------------------------
 
 The term "class" refers to all classes, interfaces, and traits.
@@ -356,7 +356,7 @@ $foo->bar(
 );
 ```
 
-5. Control Structures
+5. Estruturas de controle
 ---------------------
 
 The general style rules for control structures are as follows:
@@ -593,7 +593,7 @@ $foo->bar(
 ```
 
 
-7. Conclusion
+7. Conclusão
 --------------
 
 There are many elements of style and practice intentionally omitted by this
