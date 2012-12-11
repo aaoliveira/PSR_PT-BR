@@ -15,16 +15,16 @@ Obrigatório
 Exemplos
 --------
 
-* `\Doctrine\Common\IsolatedClassLoader` => `/caminho/para/o/projeto/lib/vendor/Doctrine/Common/IsolatedClassLoader.php`
-* `\Symfony\Core\Request` => `/caminho/para/o/projeto/lib/vendor/Symfony/Core/Request.php`
-* `\Zend\Acl` => `/caminho/para/o/projeto/lib/vendor/Zend/Acl.php`
-* `\Zend\Mail\Message` => `/caminho/para/o/projeto/lib/vendor/Zend/Mail/Message.php`
+* `\Doctrine\Common\IsolatedClassLoader` => `/caminho/parao/projeto/lib/vendor/Doctrine/Common/IsolatedClassLoader.php`
+* `\Symfony\Core\Request` => `/caminho/parao/projeto/lib/vendor/Symfony/Core/Request.php`
+* `\Zend\Acl` => `/caminho/parao/projeto/lib/vendor/Zend/Acl.php`
+* `\Zend\Mail\Message` => `/caminho/parao/projeto/lib/vendor/Zend/Mail/Message.php`
 
 Underlines em namespaces e em nomes de classes
 -----------------------------------------
 
-* `\namespace\package\Class_Name` => `/caminho/para/o/projeto/lib/vendor/namespace/package/Class/Name.php`
-* `\namespace\package_name\Class_Name` => `/caminho/para/o/projeto/lib/vendor/namespace/package_name/Class/Name.php`
+* `\namespace\package\Class_Name` => `/caminho/parao/projeto/lib/vendor/namespace/package/Class/Name.php`
+* `\namespace\package_name\Class_Name` => `/caminho/parao/projeto/lib/vendor/namespace/package_name/Class/Name.php`
 
 Os padrões que definimos aqui devem ser o menor denominador comum para
 uma indolor interoperabilidade de autocarregamento. Você pode testar se está seguindo esses padrões, utilizando esta amostra da implementação da SplClassLoader que é capaz de carregar classes do PHP 5.3.
