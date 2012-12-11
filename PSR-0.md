@@ -10,7 +10,7 @@ Obrigatório
 * Cada caractere `_` no nome da classe é convertido para
   `DIRECTORY_SEPARATOR`. O caractere `_`não tem nenhum significado especial na namespace.
 * A namespace totalmente qualificada e a classe é sufixada com `.php` durante o carregamento do sistema de arquivos.
-* Caracteres alfabéticos em nomes de de fabricante, em namespaces e em classes podem ser qualquer combinação de letras maiúsculas e minúsculas.
+* Caracteres alfabéticos em nomes de fabricante, em namespaces e em classes podem ser qualquer combinação de letras maiúsculas e minúsculas.
 
 Exemplos
 --------
