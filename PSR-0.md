@@ -4,31 +4,27 @@ Obrigatório
 ---------
 
 * Uma namespace totalmente qualificada e as classes devem seguir a seguinte estrutura `\<Nome do Fabricante>\(<Namespace>\)*<Nome da Classe>`
-* Each namespace must have a top-level namespace ("Vendor Name").
-* Each namespace can have as many sub-namespaces as it wishes.
-* Each namespace separator is converted to a `DIRECTORY_SEPARATOR` when
-  loading from the file system.
-* Each `_` character in the CLASS NAME is converted to a
-  `DIRECTORY_SEPARATOR`. The `_` character has no special meaning in the
-  namespace.
-* The fully-qualified namespace and class is suffixed with `.php` when
-  loading from the file system.
-* Alphabetic characters in vendor names, namespaces, and class names may
-  be of any combination of lower case and upper case.
+* Cada namespace deve ter uma namespace de nível superior ("Nome do fabricante").
+* Cada namespace pode ter quantos sub-namespaces que quiser.
+* Cada separador de namespace deve ser convertido para `DIRECTORY_SEPARATOR` durante o carregamento do sistema de arquivos.
+* Cada caractere `_` no nome da classe é convertido para
+  `DIRECTORY_SEPARATOR`. O caractere `_`não tem nenhum significado especial na namespace.
+* A namespace totalmente qualificada e a classe é sufixada com `.php` durante o carregamento do sistema de arquivos.
+* Caracteres alfabéticos em nomes de de fabricante, em namespaces e em classes podem ser qualquer combinação de letras maiúsculas e minúsculas.
 
-Examples
+Exemplos
 --------
 
-* `\Doctrine\Common\IsolatedClassLoader` => `/path/to/project/lib/vendor/Doctrine/Common/IsolatedClassLoader.php`
-* `\Symfony\Core\Request` => `/path/to/project/lib/vendor/Symfony/Core/Request.php`
-* `\Zend\Acl` => `/path/to/project/lib/vendor/Zend/Acl.php`
-* `\Zend\Mail\Message` => `/path/to/project/lib/vendor/Zend/Mail/Message.php`
+* `\Doctrine\Common\IsolatedClassLoader` => `/caminho/para/o/projeto/lib/vendor/Doctrine/Common/IsolatedClassLoader.php`
+* `\Symfony\Core\Request` => `/caminho/para/o/projeto/lib/vendor/Symfony/Core/Request.php`
+* `\Zend\Acl` => `/caminho/para/o/projeto/lib/vendor/Zend/Acl.php`
+* `\Zend\Mail\Message` => `/caminho/para/o/projeto/lib/vendor/Zend/Mail/Message.php`
 
-Underscores in Namespaces and Class Names
+Underlines em namespaces e em nomes de classes
 -----------------------------------------
 
-* `\namespace\package\Class_Name` => `/path/to/project/lib/vendor/namespace/package/Class/Name.php`
-* `\namespace\package_name\Class_Name` => `/path/to/project/lib/vendor/namespace/package_name/Class/Name.php`
+* `\namespace\package\Class_Name` => `/caminho/para/o/projeto/lib/vendor/namespace/package/Class/Name.php`
+* `\namespace\package_name\Class_Name` => `/caminho/para/o/projeto/lib/vendor/namespace/package_name/Class/Name.php`
 
 The standards we set here should be the lowest common denominator for
 painless autoloader interoperability. You can test that you are
