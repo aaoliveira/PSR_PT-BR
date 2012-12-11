@@ -31,16 +31,16 @@ interoperability between shared PHP code.
 2. Arquivos
 --------
 
-### 2.1. PHP Tags
+### 2.1. Tags PHP
 
 PHP code MUST use the long `<?php ?>` tags or the short-echo `<?= ?>` tags; it
 MUST NOT use the other tag variations.
 
-### 2.2. Character Encoding
+### 2.2. Codificação de caracteres
 
 PHP code MUST use only UTF-8 without BOM.
 
-### 2.3. Side Effects
+### 2.3. Efeitos secundários
 
 A file SHOULD declare new symbols (classes, functions, constants,
 etc.) and cause no other side effects, or it SHOULD execute logic with side
@@ -137,7 +137,7 @@ class Vendor_Model_Foo
 
 The term "class" refers to all classes, interfaces, and traits.
 
-### 4.1. Constants
+### 4.1. Constantes
 
 Class constants MUST be declared in all upper case with underscore separators.
 For example:
@@ -153,7 +153,7 @@ class Foo
 }
 ```
 
-### 4.2. Properties
+### 4.2. propriedades
 
 This guide intentionally avoids any recommendation regarding the use of
 `$StudlyCaps`, `$camelCase`, or `$under_score` property names.
@@ -162,6 +162,6 @@ Whatever naming convention is used SHOULD be applied consistently within a
 reasonable scope. That scope may be vendor-level, package-level, class-level,
 or method-level.
 
-### 4.3. Methods
+### 4.3. Métodos
 
 Method names MUST be declared in `camelCase()`.
