@@ -72,7 +72,7 @@ class Foo extends Bar implements FooInterface
 
 ### 2.1 Padrão básico de codificação
 
-Code MUST follow all rules outlined in [PSR-1][].
+Código deve seguir todas as regras descritas na [PSR-1][].
 
 ### 2.2 Arquivos
 
