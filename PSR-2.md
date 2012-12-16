@@ -15,34 +15,25 @@ As regras de estilo daqui são derivadas de semelhanças entre membros de vário
 1. Visão geral
 -----------
 
-- Code MUST follow [PSR-1][].
+- Código deve seguir a [PSR-1][].
 
-- Code MUST use 4 spaces for indenting, not tabs.
+- Código deve usar 4 espaços para identação ao invés de tabs.
 
-- There MUST NOT be a hard limit on line length; the soft limit MUST be 120
-  characters; lines SHOULD be 80 characters or less.
+- Não deve existir um limite rigoroso no comprimento das linhas; o limite suave deve ser de 120 caracteres; linhas devem ser de 80 caracteres ou menos.
 
-- There MUST be one blank line after the `namespace` declaration, and there
-  MUST be one blank line after the block of `use` declarations.
+- Deve ter uma linha em branco depois da declaração de `namespace` e outra linha após o bloco das declarações de `use`.
 
-- Opening braces for classes MUST go on the next line, and closing braces MUST
-  go on the next line after the body.
+- A abertura de chaves para classes deve estar na próxima linha e o fechamento na próxima linha após o corpo.
 
-- Opening braces for methods MUST go on the next line, and closing braces MUST
-  go on the next line after the body.
+- A abertura de chaves para métodos deve estar na próxima linha e o fechamento na próxima linha após o corpo.
 
-- Visibility MUST be declared on all properties and methods; `abstract` and
-  `final` MUST be declared before the visibility; `static` MUST be declared
-  after the visibility.
+- Visibilidade deve ser declarada em todas as propriedades e métodos; `abstract` e `final` deve ser declarada antes da visibilidade; `static` após a visibilidade.
 
-- Control structure keywords MUST have one space after them; method and
-  function calls MUST NOT.
+- Palavras-chaves das estruturas de controle devem ter um espaço após elas; chamadas de métodos e funções não devem.
 
-- Opening braces for control structures MUST go on the same line, and closing
-  braces MUST go on the next line after the body.
+- A abertura de chaves para classes deve estar na mesma linha e o fechamento na próxima linha após o corpo.
 
-- Opening parentheses for control structures MUST NOT have a space after them,
-  and closing parentheses for control structures MUST NOT have a space before.
+- A abertura de parênteses para estruturas de controle não devem ter um espaço após ela e também não deve ter um espaco antes do fechamento dos parênteses.
 
 ### 1.1. Exemplo
 
