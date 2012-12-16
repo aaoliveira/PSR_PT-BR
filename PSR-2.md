@@ -76,11 +76,11 @@ Código deve seguir todas as regras descritas na [PSR-1][].
 
 ### 2.2 Arquivos
 
-All PHP files MUST use the Unix LF (linefeed) line ending.
+Todos os arquivos PHP deve usar o fim da linha Unix LF (linefeed).
 
-All PHP files MUST end with a single blank line.
+Todos os arquivos PHP devem terminar com uma única linha em branco.
 
-The closing `?>` tag MUST be omitted from files containing only PHP.
+A tag de fechamento `?>` deve ser omitida em arquivos que só contém código PHP.
 
 ### 2.3. Linhas
 
