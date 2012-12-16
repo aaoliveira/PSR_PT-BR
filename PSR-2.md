@@ -84,20 +84,17 @@ A tag de fechamento `?>` deve ser omitida em arquivos que só contém código PH
 
 ### 2.3. Linhas
 
-There MUST NOT be a hard limit on line length.
+Não deve existir um limite rigoroso no comprimento das linhas.
 
-The soft limit on line length MUST be 120 characters; automated style checkers
-MUST warn but MUST NOT error at the soft limit.
+O limite suave deve ser de 120 caracteres; verificadores de estilo automatizados devem avisar mas não devem assinalar como erro no limite suave.
 
-Lines SHOULD NOT be longer than 80 characters; lines longer than that SHOULD
-be split into multiple subsequent lines of no more than 80 characters each.
+Linhas não devem ser maiores do que 80 caracteres; linhas longas devem ser quebradas em linhas com menos de 80 caracteres cada.
 
-There MUST NOT be trailing whitespace at the end of non-blank lines.
+Não deve ter linhas em branco no final de linhas não em branco.
 
-Blank lines MAY be added to improve readability and to indicate related
-blocks of code.
+Linhas em branco podem ser adcionadas para aumentar a legibilidade e para indicar blocos relacionados de código.
 
-There MUST NOT be more than one statement per line.
+Não deve ter mais de um comando por linha.
 
 ### 2.4. Indentação
 
