@@ -37,7 +37,7 @@ As regras de estilo daqui são derivadas de semelhanças entre membros de vário
 
 ### 1.1. Exemplo
 
-This example encompasses some of the rules below as a quick overview:
+Este exemplo engloba algumas das regras abaixo como uma visão geral:
 
 ```php
 <?php
