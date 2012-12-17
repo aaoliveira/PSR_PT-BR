@@ -539,4 +539,4 @@ Há muitos elementos de estilo e práticas intencionalmente omitidos por este gu
 
 - Boas práticas
 
-Futuras recomendações podem ser revisadas e estender este guia para abordar outros elementos de estilo e prática.
+Futuras recomendações podem ser revisadas e pode se estender este guia para abordar outros elementos de estilo e prática.
