@@ -117,16 +117,15 @@ As constantes do PHP `true`, `false` e `null` devem estar em letra minúscula.
 3. Namespace e declarações de 'use'
 ---------------------------------
 
-When present, there MUST be one blank line after the `namespace` declaration.
+Quando presente, deve haver uma linha em branco depois da declaração da `namespace`.
 
-When present, all `use` declarations MUST go after the `namespace`
-declaration.
+Quando presente, todas as declarações `use` devem vir depois da declaração da `namespace`.
 
-There MUST be one `use` keyword per declaration.
+Deve haver uma palavra-chave `use` para cada declaração.
 
-There MUST be one blank line after the `use` block.
+Deve haver uma linha em branco após o bloco de declarações `use`.
 
-For example:
+Por exemplo:
 
 ```php
 <?php
