@@ -430,24 +430,17 @@ try {
 6. Closures
 -----------
 
-Closures MUST be declared with a space after the `function` keyword, and a
-space before and after the `use` keyword.
+Closures devem ser declaradas com um espaço depois da palavra-chave `function` e um espaço antes e depois da palavra-chave `use`.
 
-The opening brace MUST go on the same line, and the closing brace MUST go on
-the next line following the body.
+A abertura da chave deve vir na mesma linha e o fechamento da chave deve vir na próxima linha após o corpo.
 
-There MUST NOT be a space after the opening parenthesis of the argument list
-or variable list, and there MUST NOT be a space before the closing parenthesis
-of the argument list or variable list.
+Não deve haver um espaço após a abertura de parênteses de uma lista de argumentos ou uma lista de variáveis, e não deve haver um espaço antes do fechamento dos parênteses da lista de argumentos ou de variáveis.
 
-In the argument list and variable list, there MUST NOT be a space before each
-comma, and there MUST be one space after each comma.
+Na lista de argumentos e na lista de variáveis, não deve haver um espaço antes de cada vírgula e deve haver um espaço depois de cada vírgula.
 
-Closure arguments with default values MUST go at the end of the argument
-list.
+Argumentos de uma Closure com valores padrão devem vir depois da lista de argumentos.
 
-A closure declaration looks like the following. Note the placement of
-parentheses, commas, spaces, and braces:
+Uma declaração de closure se parece com o seguinte. Note a posição de parênteses, vírgulas, espaços e chaves:
 
 ```php
 <?php
@@ -460,17 +453,11 @@ $closureWithArgsAndVars = function ($arg1, $arg2) use ($var1, $var2) {
 };
 ```
 
-Argument lists and variable lists MAY be split across multiple lines, where
-each subsequent line is indented once. When doing so, the first item in the
-list MUST be on the next line, and there MUST be only one argument or variable
-per line.
+Listas de argumentos e de variáveis podem ser divididas em múltiplas linhas, onde cada linha subsequente é identada uma vez. Quando fizer isto, o primeiro item na lista deve estar na próxima linha e deve haver um argumento ou variável por linha.
 
-When the ending list (whether or arguments or variables) is split across
-multiple lines, the closing parenthesis and opening brace MUST be placed
-together on their own line with one space between them.
+Quando a lista de argumento for dividida em múltiplas linhas, o fechamento de parênteses e a abertura de chaves devem ser colocadas na mesma linha com um espaço entre eles.
 
-The following are examples of closures with and without argument lists and
-variable lists split across multiple lines.
+Os seguintes são exemplos de closure com e sem listas de argumentos e variáveis divididas em múltiplas linhas.
 
 ```php
 <?php
@@ -519,8 +506,7 @@ $shortArgs_longVars = function ($arg) use (
 };
 ```
 
-Note that the formatting rules also apply when the closure is used directly
-in a function or method call as an argument.
+Note que as regras de formatação também se aplicam quando o fechamento é usado diretamente em uma chamada de função ou método como um argumento.
 
 ```php
 <?php
