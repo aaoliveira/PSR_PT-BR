@@ -232,11 +232,9 @@ class ClassName
 
 ### 4.4. Argumentos dos métodos
 
-In the argument list, there MUST NOT be a space before each comma, and there
-MUST be one space after each comma.
+Na lista de argumentos, não deve haver um espaço antes de cada vírgula e deve haver um espaço após cada vírtgula.
 
-Method arguments with default values MUST go at the end of the argument
-list.
+Argumentos de métodos com valores padrão deve vir no final da lista de argumentos.
 
 ```php
 <?php
@@ -251,13 +249,9 @@ class ClassName
 }
 ```
 
-Argument lists MAY be split across multiple lines, where each subsequent line
-is indented once. When doing so, the first item in the list MUST be on the
-next line, and there MUST be only one argument per line.
+Listas de argumentos podem ser dividas em múltiplas linhas, onde cada linha subsequente é identada uma vez. Quando fizer isto, o primeiro item na lista deve estar na próxima linha e deve haver um argumento por linha.
 
-When the argument list is split across multiple lines, the closing parenthesis
-and opening brace MUST be placed together on their own line with one space
-between them.
+Quando a lista de argumento for dividida em múltiplas linhas, o fechamento de parênteses e a abertura de chaves devem ser colocadas na mesma linha com um espaço entre eles.
 
 ```php
 <?php
@@ -265,7 +259,7 @@ namespace Vendor\Package;
 
 class ClassName
 {
-    public function aVeryLongMethodName(
+    public function umNomeDeMetodoMuitoLongo(
         ClassTypeHint $arg1,
         &$arg2,
         array $arg3 = []
