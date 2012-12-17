@@ -325,9 +325,7 @@ As regras gerais de estilo para estruturas de controle são as seguintes:
 - A estrutura do corpo deve ser identada uma vez
 - O fechamento das chaves devem vir na próxima linha após o corpo
 
-O corpo de cada estrutura deve ser delimitado por chaves. Estes
-
-The body of each structure MUST be enclosed by braces. Isto padroniza como
+O corpo de cada estrutura deve ser delimitado por chaves. Isto padroniza como
 as estruturas aparecem e reduz o risco de introdução de erros como novas linhas sejam adcionadas ao corpo.
 
 ### 5.1. `if`, `elseif`, `else`
