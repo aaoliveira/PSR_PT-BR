@@ -106,11 +106,11 @@ Código deve usar uma identação de 4 espacos, e não deve usar tabs para ident
 
 ### 2.5. Palavras-chave e as constantes True/False/Null
 
-PHP [keywords][] MUST be in lower case.
+[Palavras-chave][] do PHP devem estar em letra minúscula.
 
-The PHP constants `true`, `false`, and `null` MUST be in lower case.
+As constantes do PHP `true`, `false` e `null` devem estar em letra minúscula.
 
-[keywords]: http://php.net/manual/pt_BR/reserved.keywords.php
+[Palavras-chave]: http://php.net/manual/pt_BR/reserved.keywords.php
 
 
 
