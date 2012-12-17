@@ -330,9 +330,7 @@ as estruturas aparecem e reduz o risco de introdução de erros como novas linha
 
 ### 5.1. `if`, `elseif`, `else`
 
-An `if` structure looks like the following. Note the placement of parentheses,
-spaces, and braces; and that `else` and `elseif` are on the same line as the
-closing brace from the earlier body.
+Uma estrutura `if` se parece com o seguinte. Note a posição dos parênteses, espaços e chaves; e que `else` e `elseif` são na mesma linha do fechamento das chaves do corpo anterior.
 
 ```php
 <?php
@@ -344,10 +342,7 @@ if ($expr1) {
     // else body;
 }
 ```
-
-The keyword `elseif` SHOULD be used instead of `else if` so that all control
-keywords look like single words.
-
+A palavra-chave `elseif` deve ser usada ao invés de `elseif` de modo que todas as estruturas de controle parecam uma única palavra.
 
 ### 5.2. `switch`, `case`
 
