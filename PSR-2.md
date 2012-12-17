@@ -143,7 +143,7 @@ use OtherVendor\OtherPackage\BazClass;
 4. Classes, propriedades e métodos
 -----------------------------------
 
-The term "class" refers to all classes, interfaces, and traits.
+O termo "classes" é uma referência para todas as classes, interfaces e traits.
 
 ### 4.1. Extends e Implements
 
