@@ -346,11 +346,8 @@ A palavra-chave `elseif` deve ser usada ao invés de `elseif` de modo que todas 
 
 ### 5.2. `switch`, `case`
 
-A `switch` structure looks like the following. Note the placement of
-parentheses, spaces, and braces. The `case` statement MUST be indented once
-from `switch`, and the `break` keyword (or other terminating keyword) MUST be
-indented at the same level as the `case` body. There MUST be a comment such as
-`// no break` when fall-through is intentional in a non-empty `case` body.
+Uma estrutura `switch` se parece com o seguinte. Note a posição dos parênteses, espaços e chaves; A declaração `case` deve ser identada uma vez do `switch`, e a palavra-chave `break` (ou outra palavra-chave de finalização) deve ser identada no mesmo nível do corpo do `case`. Deve haver um comentário como
+`// no break` quando "continuar" é intencional e não for um `case` com corpo vazio.
 
 ```php
 <?php
