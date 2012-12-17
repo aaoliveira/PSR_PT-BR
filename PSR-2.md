@@ -208,18 +208,14 @@ class ClassName
 
 ### 4.3. Métodos
 
-Visibility MUST be declared on all methods.
+Visibilidade deve ser declarada em todos os métodos.
 
-Method names SHOULD NOT be prefixed with a single underscore to indicate
-protected or private visibility.
+Nome dos métodos não devem ser prefixados com um único undeline para indicar a visibilidade protegida ou privada.
 
-Method names MUST NOT be declared with a space after the method name. The
-opening brace MUST go on its own line, and the closing brace MUST go on the
-next line following the body. There MUST NOT be a space after the opening
-parenthesis, and there MUST NOT be a space before the closing parenthesis.
+Nome dos métodos não devem ser declarados com um espaço após ao nome do método. A abertura de chave deve vir na próxima linha e o fechamento deve vir na linha seguinte do fechamento do corpo. Não deve haver um espaço depois da abertura dos parênteses e nem um espaço antes do fechamento dos parênteses.
 
-A method declaration looks like the following. Note the placement of
-parentheses, commas, spaces, and braces:
+Uma declaração de método se parece com o seguinte. Note a colocação dos
+parênteses, vírgulas, espaços e chaves:
 
 ```php
 <?php
