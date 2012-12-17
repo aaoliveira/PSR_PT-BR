@@ -537,22 +537,20 @@ $foo->bar(
 7. Conclusão
 --------------
 
-There are many elements of style and practice intentionally omitted by this
-guide. These include but are not limited to:
+Há muitos elementos de estilo e práticas intencionalmente omitidos por este guia. Estes incluem, mas não estão limitados para:
 
-- Declaration of global variables and global constants
+- Declaração de variáveis globais e constantes globais
 
-- Declaration of functions
+- Declaração de funções
 
-- Operators and assignment
+- Operadores e atribuição
 
-- Inter-line alignment
+- Alinhamento entre linhas
 
-- Comments and documentation blocks
+- Comentários e blocos de documentação
 
-- Class name prefixes and suffixes
+- Prefixos e sufixos de nomes de classes
 
-- Best practices
+- Boas práticas
 
-Future recommendations MAY revise and extend this guide to address those or
-other elements of style and practice.
+Futuras recomendações podem ser revisadas e estender este guia para abordar outros elementos de estilo e prática.
