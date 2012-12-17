@@ -342,7 +342,7 @@ if ($expr1) {
     // else body;
 }
 ```
-A palavra-chave `elseif` deve ser usada ao invés de `elseif` de modo que todas as estruturas de controle parecam uma única palavra.
+A palavra-chave `elseif` deve ser usada ao invés de `elseif` de modo que todas as estruturas de controle pareçam uma única palavra.
 
 ### 5.2. `switch`, `case`
 
