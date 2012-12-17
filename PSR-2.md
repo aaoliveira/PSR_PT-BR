@@ -353,18 +353,18 @@ Uma estrutura `switch` se parece com o seguinte. Note a posição dos parêntese
 <?php
 switch ($expr) {
     case 0:
-        echo 'First case, with a break';
+        echo 'Primeiro caso, com uma quebra';
         break;
     case 1:
-        echo 'Second case, which falls through';
+        echo 'Segundo caso, sem uma quebra, continuando para o(s) caso(s) seguintes';
         // no break
     case 2:
     case 3:
     case 4:
-        echo 'Third case, return instead of break';
+        echo 'Quarto caso, return é usado para fazer a quebra ao invés de break';
         return;
     default:
-        echo 'Default case';
+        echo 'Caso padrão';
         break;
 }
 ```
