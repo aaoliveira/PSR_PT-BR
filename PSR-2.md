@@ -335,11 +335,11 @@ Uma estrutura `if` se parece com o seguinte. Note a posição dos parênteses, e
 ```php
 <?php
 if ($expr1) {
-    // if body
+    // if corpo
 } elseif ($expr2) {
-    // elseif body
+    // elseif corpo
 } else {
-    // else body;
+    // else corpo;
 }
 ```
 A palavra-chave `elseif` deve ser usada ao invés de `elseif` de modo que todas as estruturas de controle pareçam uma única palavra.
@@ -397,7 +397,7 @@ Uma estrutura `for` se parece com o seguinte. Note a posição dos parênteses, 
 ```php
 <?php
 for ($i = 0; $i < 10; $i++) {
-    // for body
+    // for corpo
 }
 ```
 
@@ -408,7 +408,7 @@ Uma estrutura `foreach` se parece com o seguinte. Note a posição dos parêntes
 ```php
 <?php
 foreach ($iterable as $key => $value) {
-    // foreach body
+    // foreach corpo
 }
 ```
 
@@ -419,11 +419,11 @@ Um bloco `try catch` se parece com o seguinte. Note a posição dos parênteses,
 ```php
 <?php
 try {
-    // try body
+    // try corpo
 } catch (FirstExceptionType $e) {
-    // catch body
+    // catch corpo
 } catch (OtherExceptionType $e) {
-    // catch body
+    // catch corpo
 }
 ```
 
@@ -445,11 +445,11 @@ Uma declaração de closure se parece com o seguinte. Note a posição de parên
 ```php
 <?php
 $closureWithArgs = function ($arg1, $arg2) {
-    // body
+    // corpo
 };
 
 $closureWithArgsAndVars = function ($arg1, $arg2) use ($var1, $var2) {
-    // body
+    // corpo
 };
 ```
 
@@ -466,7 +466,7 @@ $longArgs_noVars = function (
     $longerArgument,
     $muchLongerArgument
 ) {
-   // body
+   // corpo
 };
 
 $noArgs_longVars = function () use (
@@ -474,7 +474,7 @@ $noArgs_longVars = function () use (
     $longerVar2,
     $muchLongerVar3
 ) {
-   // body
+   // corpo
 };
 
 $longArgs_longVars = function (
@@ -486,7 +486,7 @@ $longArgs_longVars = function (
     $longerVar2,
     $muchLongerVar3
 ) {
-   // body
+   // corpo
 };
 
 $longArgs_shortVars = function (
@@ -494,7 +494,7 @@ $longArgs_shortVars = function (
     $longerArgument,
     $muchLongerArgument
 ) use ($var1) {
-   // body
+   // corpo
 };
 
 $shortArgs_longVars = function ($arg) use (
@@ -502,7 +502,7 @@ $shortArgs_longVars = function ($arg) use (
     $longerVar2,
     $muchLongerVar3
 ) {
-   // body
+   // corpo
 };
 ```
 
@@ -513,7 +513,7 @@ Note que as regras de formatação também se aplicam quando o fechamento é usa
 $foo->bar(
     $arg1,
     function ($arg2) use ($var1) {
-        // body
+        // corpo
     },
     $arg3
 );
