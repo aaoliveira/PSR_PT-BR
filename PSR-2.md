@@ -294,11 +294,7 @@ abstract class ClassName
 
 ### 4.6. Chamadas de métodos e funções
 
-When making a method or function call, there MUST NOT be a space between the
-method or function name and the opening parenthesis, there MUST NOT be a space
-after the opening parenthesis, and there MUST NOT be a space before the
-closing parenthesis. In the argument list, there MUST NOT be a space before
-each comma, and there MUST be one space after each comma.
+Quando fazemos uma chamada de método ou de função, não deve haver um espaço entre o método ou o nome da função e a abertura dos parênteses, não deve haver um espaço depois da abertura de parênteses e não deve haver um espaço antes do fechamento de parênteses. Na lista de argumentos não deve haver um espaço antes de cada vírgula e deve ter uma espaço depois de cada vírgula.
 
 ```php
 <?php
@@ -306,10 +302,7 @@ bar();
 $foo->bar($arg1);
 Foo::bar($arg2, $arg3);
 ```
-
-Argument lists MAY be split across multiple lines, where each subsequent line
-is indented once. When doing so, the first item in the list MUST be on the
-next line, and there MUST be only one argument per line.
+Listas de argumentos podem ser dividas em múltiplas linhas, onde cada linha subsequente é identada uma vez. Quando fizer isto, o primeiro item na lista deve estar na próxima linha e deve haver um argumento por linha.
 
 ```php
 <?php
