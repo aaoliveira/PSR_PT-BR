@@ -372,8 +372,7 @@ switch ($expr) {
 
 ### 5.3. `while`, `do while`
 
-A `while` statement looks like the following. Note the placement of
-parentheses, spaces, and braces.
+Uma estrutura `while` se parece com o seguinte. Note a posição dos parênteses, espaços e chaves;
 
 ```php
 <?php
@@ -382,8 +381,7 @@ while ($expr) {
 }
 ```
 
-Similarly, a `do while` statement looks like the following. Note the placement
-of parentheses, spaces, and braces.
+Igualmente, uma estrutura `do while` se parece com o seguinte. Note a posição dos parênteses, espaços e chaves;
 
 ```php
 <?php
@@ -394,8 +392,7 @@ do {
 
 ### 5.4. `for`
 
-A `for` statement looks like the following. Note the placement of parentheses,
-spaces, and braces.
+Uma estrutura `for` se parece com o seguinte. Note a posição dos parênteses, espaços e chaves;
 
 ```php
 <?php
@@ -406,8 +403,7 @@ for ($i = 0; $i < 10; $i++) {
 
 ### 5.5. `foreach`
 
-A `foreach` statement looks like the following. Note the placement of
-parentheses, spaces, and braces.
+Um bloco `foreach` se parece com o seguinte. Note a posição dos parênteses, espaços e chaves;
 
 ```php
 <?php
@@ -418,8 +414,7 @@ foreach ($iterable as $key => $value) {
 
 ### 5.6. `try`, `catch`
 
-A `try catch` block looks like the following. Note the placement of
-parentheses, spaces, and braces.
+Uma estrutura `try catch` se parece com o seguinte. Note a posição dos parênteses, espaços e chaves;
 
 ```php
 <?php
