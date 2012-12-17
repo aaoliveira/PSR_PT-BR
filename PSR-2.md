@@ -271,11 +271,9 @@ class ClassName
 
 ### 4.5. Palavras-chave `abstract`, `final`, e `static`
 
-When present, the `abstract` and `final` declarations MUST precede the
-visibility declaration.
+Quando presentes, as declarações `abstract` e `final` devem preceder a declaração da visibilidade.
 
-When present, the `static` declaration MUST come after the visibility
-declaration.
+Quando presente, a declaração `static` deve vir depois da declaração da visibilidade.
 
 ```php
 <?php
