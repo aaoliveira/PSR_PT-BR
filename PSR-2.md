@@ -403,7 +403,7 @@ for ($i = 0; $i < 10; $i++) {
 
 ### 5.5. `foreach`
 
-Um bloco `foreach` se parece com o seguinte. Note a posição dos parênteses, espaços e chaves.
+Uma estrutura `foreach` se parece com o seguinte. Note a posição dos parênteses, espaços e chaves.
 
 ```php
 <?php
@@ -414,7 +414,7 @@ foreach ($iterable as $key => $value) {
 
 ### 5.6. `try`, `catch`
 
-Uma estrutura `try catch` se parece com o seguinte. Note a posição dos parênteses, espaços e chaves.
+Um bloco `try catch` se parece com o seguinte. Note a posição dos parênteses, espaços e chaves.
 
 ```php
 <?php
