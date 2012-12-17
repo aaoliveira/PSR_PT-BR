@@ -147,11 +147,9 @@ O termo "classes" é uma referência para todas as classes, interfaces e traits.
 
 ### 4.1. Extends e Implements
 
-The `extends` and `implements` keywords MUST be declared on the same line as
-the class name.
+As palavras-chave `extends` e `implements` devem ser declaradas na mesma linha do nome da classe.
 
-The opening brace for the class MUST go on its own line; the closing brace
-for the class MUST go on the next line after the body.
+A abertura de chaves para a classe deve vir na próxima linha; o fechamento das chaves deve vir na linha seguinte do fechamento do corpo.
 
 ```php
 <?php
@@ -167,9 +165,7 @@ class ClassName extends ParentClass implements \ArrayAccess, \Countable
 }
 ```
 
-Lists of `implements` MAY be split across multiple lines, where each
-subsequent line is indented once. When doing so, the first item in the list
-MUST be on the next line, and there MUST be only one interface per line.
+A lista de `implements` pode ser divida em múltiplas linhas, onde cada linha subsequente é identada uma vez. Quando fizer isto, o primeiro item na lista deve estar na próxima linha e deve haver uma interface por linha.
 
 ```php
 <?php
