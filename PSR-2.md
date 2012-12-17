@@ -316,20 +316,19 @@ $foo->bar(
 5. Estruturas de controle
 ---------------------
 
-The general style rules for control structures are as follows:
+As regras gerais de estilo para estruturas de controle são as seguintes:
 
-- There MUST be one space after the control structure keyword
-- There MUST NOT be a space after the opening parenthesis
-- There MUST NOT be a space before the closing parenthesis
-- There MUST be one space between the closing parenthesis and the opening
-  brace
-- The structure body MUST be indented once
-- The closing brace MUST be on the next line after the body
+- Deve haver um espaço depois da palavra-chave da estrutura de controle
+- Não deve haver um espaço depois da abertura de parênteses
+- Não deve haver um espaço antes do fechamento de parênteses
+- Deve haver um espaço entre o fechamento de parênteses e a abertura de chaves
+- A estrutura do corpo deve ser identada uma vez
+- O fechamento das chaves devem vir na próxima linha após o corpo
 
-The body of each structure MUST be enclosed by braces. This standardizes how
-the structures look, and reduces the likelihood of introducing errors as new
-lines get added to the body.
+O corpo de cada estrutura deve ser delimitado por chaves. Estes
 
+The body of each structure MUST be enclosed by braces. Isto padroniza como
+as estruturas aparecem e reduz o risco de introdução de erros como novas linhas sejam adcionadas ao corpo.
 
 ### 5.1. `if`, `elseif`, `else`
 
