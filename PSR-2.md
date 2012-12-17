@@ -346,7 +346,7 @@ A palavra-chave `elseif` deve ser usada ao invés de `elseif` de modo que todas 
 
 ### 5.2. `switch`, `case`
 
-Uma estrutura `switch` se parece com o seguinte. Note a posição dos parênteses, espaços e chaves; A declaração `case` deve ser identada uma vez do `switch`, e a palavra-chave `break` (ou outra palavra-chave de finalização) deve ser identada no mesmo nível do corpo do `case`. Deve haver um comentário como
+Uma estrutura `switch` se parece com o seguinte. Note a posição dos parênteses, espaços e chaves. A declaração `case` deve ser identada uma vez do `switch`, e a palavra-chave `break` (ou outra palavra-chave de finalização) deve ser identada no mesmo nível do corpo do `case`. Deve haver um comentário como
 `// no break` quando "continuar" é intencional e não for um `case` com corpo vazio.
 
 ```php
@@ -372,7 +372,7 @@ switch ($expr) {
 
 ### 5.3. `while`, `do while`
 
-Uma estrutura `while` se parece com o seguinte. Note a posição dos parênteses, espaços e chaves;
+Uma estrutura `while` se parece com o seguinte. Note a posição dos parênteses, espaços e chaves.
 
 ```php
 <?php
@@ -381,7 +381,7 @@ while ($expr) {
 }
 ```
 
-Igualmente, uma estrutura `do while` se parece com o seguinte. Note a posição dos parênteses, espaços e chaves;
+Igualmente, uma estrutura `do while` se parece com o seguinte. Note a posição dos parênteses, espaços e chaves.
 
 ```php
 <?php
@@ -392,7 +392,7 @@ do {
 
 ### 5.4. `for`
 
-Uma estrutura `for` se parece com o seguinte. Note a posição dos parênteses, espaços e chaves;
+Uma estrutura `for` se parece com o seguinte. Note a posição dos parênteses, espaços e chaves.
 
 ```php
 <?php
@@ -403,7 +403,7 @@ for ($i = 0; $i < 10; $i++) {
 
 ### 5.5. `foreach`
 
-Um bloco `foreach` se parece com o seguinte. Note a posição dos parênteses, espaços e chaves;
+Um bloco `foreach` se parece com o seguinte. Note a posição dos parênteses, espaços e chaves.
 
 ```php
 <?php
@@ -414,7 +414,7 @@ foreach ($iterable as $key => $value) {
 
 ### 5.6. `try`, `catch`
 
-Uma estrutura `try catch` se parece com o seguinte. Note a posição dos parênteses, espaços e chaves;
+Uma estrutura `try catch` se parece com o seguinte. Note a posição dos parênteses, espaços e chaves.
 
 ```php
 <?php
