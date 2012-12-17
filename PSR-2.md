@@ -98,12 +98,11 @@ Não deve ter mais de um comando por linha.
 
 ### 2.4. Indentação
 
-Code MUST use an indent of 4 spaces, and MUST NOT use tabs for indenting.
+Código deve usar uma identação de 4 espacos, e não deve usar tabs para identação.
 
-> N.b.: Using only spaces, and not mixing spaces with tabs, helps to avoid
-> problems with diffs, patches, history, and annotations. The use of spaces
-> also makes it easy to insert fine-grained sub-indentation for inter-line
-> alignment.
+> Note bem: Usando apenas espaços, e não misturando espaços com tabs, ajuda a evitaar
+> problemas com diffs, patches, history e annotations. O uso de espaços
+> também torna mais fácil para inserir sub-identação.
 
 ### 2.5. Palavras-chave e as constantes True/False/Null
 
