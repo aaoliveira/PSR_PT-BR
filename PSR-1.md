@@ -13,7 +13,7 @@ Esta seção do padrão compreende o que deve ser considerado dos elementos padr
 
 - Arquivos devem usar apenas UTF-8 sem BOM para código PHP.
 
-- Arquvos devem declarar símbolos (classes, funções, contantes, etc.) ou causar outros efeitos (ex: gerar output, alterar configurações .ini, etc.), mas não devem fazer as duas coisas.
+- Arquivos devem declarar símbolos (classes, funções, contantes, etc.) ou causar outros efeitos (ex: gerar output, alterar configurações .ini, etc.), mas não devem fazer as duas coisas.
 
 - Namespaces e classes devem seguir a [PSR-0][].
 
