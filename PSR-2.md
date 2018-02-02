@@ -1,4 +1,4 @@
-Guia de estilo de código
+﻿Guia de estilo de código
 ==================
 
 Este guia estende e expande sobre a [PSR-1][], os padrões básicos de codificação.
@@ -27,13 +27,13 @@ As regras de estilo daqui são derivadas de semelhanças entre membros de vário
 
 - A abertura de chaves para métodos deve estar na próxima linha e o fechamento na próxima linha após o corpo.
 
-- Visibilidade deve ser declarada em todas as propriedades e métodos; `abstract` e `final` deve ser declarada antes da visibilidade; `static` após a visibilidade.
+- Visibilidade deve ser declarada em todas as propriedades e métodos; `abstract` e `final` devem ser declaradas antes da visibilidade; `static` após a visibilidade.
 
 - Palavras-chaves das estruturas de controle devem ter um espaço após elas; chamadas de métodos e funções não devem.
 
 - A abertura de chaves para classes deve estar na mesma linha e o fechamento na próxima linha após o corpo.
 
-- A abertura de parênteses para estruturas de controle não devem ter um espaço após ela e também não deve ter um espaco antes do fechamento dos parênteses.
+- A abertura de parênteses para estruturas de controle não devem ter um espaço após ela e também não deve ter um espaço antes do fechamento dos parênteses.
 
 ### 1.1. Exemplo
 
@@ -76,7 +76,7 @@ Código deve seguir todas as regras descritas na [PSR-1][].
 
 ### 2.2 Arquivos
 
-Todos os arquivos PHP deve usar o fim da linha Unix LF (linefeed).
+Todos os arquivos PHP devem usar o fim da linha Unix LF (linefeed).
 
 Todos os arquivos PHP devem terminar com uma única linha em branco.
 
@@ -92,15 +92,15 @@ Linhas não devem ser maiores do que 80 caracteres; linhas longas devem ser queb
 
 Não deve ter linhas em branco no final de linhas não em branco.
 
-Linhas em branco podem ser adcionadas para aumentar a legibilidade e para indicar blocos relacionados de código.
+Linhas em branco podem ser adicionadas para aumentar a legibilidade e para indicar blocos relacionados de código.
 
 Não deve ter mais de um comando por linha.
 
-### 2.4. Indentação
+### 2.4. Identação
 
-Código deve usar uma identação de 4 espacos, e não deve usar tabs para identação.
+Código deve usar uma identação de 4 espaços, e não deve usar tabs para identação.
 
-> Note bem: Usando apenas espaços, e não misturando espaços com tabs, ajuda a evitaar
+> Note bem: Usando apenas espaços, e não misturando espaços com tabs, ajuda a evitar
 > problemas com diffs, patches, history e annotations. O uso de espaços
 > também torna mais fácil para inserir sub-identação.
 
