@@ -1,4 +1,4 @@
-Guia de estilo de código
+﻿Guia de estilo de código
 ==================
 
 Este guia estende e expande sobre a [PSR-1][], os padrões básicos de codificação.
@@ -17,7 +17,7 @@ As regras de estilo daqui são derivadas de semelhanças entre membros de vário
 
 - Código deve seguir a [PSR-1][].
 
-- Código deve usar 4 espaços para identação ao invés de tabs.
+- Código deve usar 4 espaços para indentação ao invés de tabs.
 
 - Não deve existir um limite rigoroso no comprimento das linhas; o limite suave deve ser de 120 caracteres; linhas devem ser de 80 caracteres ou menos.
 
@@ -27,13 +27,13 @@ As regras de estilo daqui são derivadas de semelhanças entre membros de vário
 
 - A abertura de chaves para métodos deve estar na próxima linha e o fechamento na próxima linha após o corpo.
 
-- Visibilidade deve ser declarada em todas as propriedades e métodos; `abstract` e `final` deve ser declarada antes da visibilidade; `static` após a visibilidade.
+- Visibilidade deve ser declarada em todas as propriedades e métodos; `abstract` e `final` devem ser declaradas antes da visibilidade; `static` após a visibilidade.
 
 - Palavras-chaves das estruturas de controle devem ter um espaço após elas; chamadas de métodos e funções não devem.
 
 - A abertura de chaves para classes deve estar na mesma linha e o fechamento na próxima linha após o corpo.
 
-- A abertura de parênteses para estruturas de controle não devem ter um espaço após ela e também não deve ter um espaco antes do fechamento dos parênteses.
+- A abertura de parênteses para estruturas de controle não devem ter um espaço após ela e também não deve ter um espaço antes do fechamento dos parênteses.
 
 ### 1.1. Exemplo
 
@@ -76,7 +76,7 @@ Código deve seguir todas as regras descritas na [PSR-1][].
 
 ### 2.2 Arquivos
 
-Todos os arquivos PHP deve usar o fim da linha Unix LF (linefeed).
+Todos os arquivos PHP devem usar o fim da linha Unix LF (linefeed).
 
 Todos os arquivos PHP devem terminar com uma única linha em branco.
 
@@ -92,17 +92,17 @@ Linhas não devem ser maiores do que 80 caracteres; linhas longas devem ser queb
 
 Não deve ter linhas em branco no final de linhas não em branco.
 
-Linhas em branco podem ser adcionadas para aumentar a legibilidade e para indicar blocos relacionados de código.
+Linhas em branco podem ser adicionadas para aumentar a legibilidade e para indicar blocos relacionados de código.
 
 Não deve ter mais de um comando por linha.
 
 ### 2.4. Indentação
 
-Código deve usar uma identação de 4 espacos, e não deve usar tabs para identação.
+Código deve usar uma indentação de 4 espaços, e não deve usar tabs para indentação.
 
-> Note bem: Usando apenas espaços, e não misturando espaços com tabs, ajuda a evitaar
+> Note bem: Usando apenas espaços, e não misturando espaços com tabs, ajuda a evitar
 > problemas com diffs, patches, history e annotations. O uso de espaços
-> também torna mais fácil para inserir sub-identação.
+> também torna mais fácil para inserir sub-indentação.
 
 ### 2.5. Palavras-chave e as constantes True/False/Null
 
@@ -249,7 +249,7 @@ class ClassName
 }
 ```
 
-Listas de argumentos podem ser dividas em múltiplas linhas, onde cada linha subsequente é identada uma vez. Quando fizer isto, o primeiro item na lista deve estar na próxima linha e deve haver um argumento por linha.
+Listas de argumentos podem ser dividas em múltiplas linhas, onde cada linha subsequente é indentada uma vez. Quando fizer isto, o primeiro item na lista deve estar na próxima linha e deve haver um argumento por linha.
 
 Quando a lista de argumento for dividida em múltiplas linhas, o fechamento de parênteses e a abertura de chaves devem ser colocadas na mesma linha com um espaço entre eles.
 
@@ -302,7 +302,7 @@ bar();
 $foo->bar($arg1);
 Foo::bar($arg2, $arg3);
 ```
-Listas de argumentos podem ser dividas em múltiplas linhas, onde cada linha subsequente é identada uma vez. Quando fizer isto, o primeiro item na lista deve estar na próxima linha e deve haver um argumento por linha.
+Listas de argumentos podem ser dividas em múltiplas linhas, onde cada linha subsequente é indentada uma vez. Quando fizer isto, o primeiro item na lista deve estar na próxima linha e deve haver um argumento por linha.
 
 ```php
 <?php
@@ -322,11 +322,11 @@ As regras gerais de estilo para estruturas de controle são as seguintes:
 - Não deve haver um espaço depois da abertura de parênteses
 - Não deve haver um espaço antes do fechamento de parênteses
 - Deve haver um espaço entre o fechamento de parênteses e a abertura de chaves
-- A estrutura do corpo deve ser identada uma vez
+- A estrutura do corpo deve ser indentada uma vez
 - O fechamento das chaves devem vir na próxima linha após o corpo
 
 O corpo de cada estrutura deve ser delimitado por chaves. Isto padroniza como
-as estruturas aparecem e reduz o risco de introdução de erros como novas linhas sejam adcionadas ao corpo.
+as estruturas aparecem e reduz o risco de introdução de erros como novas linhas sejam adicionadas ao corpo.
 
 ### 5.1. `if`, `elseif`, `else`
 
@@ -346,7 +346,7 @@ A palavra-chave `elseif` deve ser usada ao invés de `elseif` de modo que todas 
 
 ### 5.2. `switch`, `case`
 
-Uma estrutura `switch` se parece com o seguinte. Note a posição dos parênteses, espaços e chaves. A declaração `case` deve ser identada uma vez do `switch`, e a palavra-chave `break` (ou outra palavra-chave de finalização) deve ser identada no mesmo nível do corpo do `case`. Deve haver um comentário como
+Uma estrutura `switch` se parece com o seguinte. Note a posição dos parênteses, espaços e chaves. A declaração `case` deve ser indentada uma vez do `switch`, e a palavra-chave `break` (ou outra palavra-chave de finalização) deve ser indentada no mesmo nível do corpo do `case`. Deve haver um comentário como
 `// no break` quando "continuar" é intencional e não for um `case` com corpo vazio.
 
 ```php
@@ -453,7 +453,7 @@ $closureWithArgsAndVars = function ($arg1, $arg2) use ($var1, $var2) {
 };
 ```
 
-Listas de argumentos e de variáveis podem ser divididas em múltiplas linhas, onde cada linha subsequente é identada uma vez. Quando fizer isto, o primeiro item na lista deve estar na próxima linha e deve haver um argumento ou variável por linha.
+Listas de argumentos e de variáveis podem ser divididas em múltiplas linhas, onde cada linha subsequente é indentada uma vez. Quando fizer isto, o primeiro item na lista deve estar na próxima linha e deve haver um argumento ou variável por linha.
 
 Quando a lista de argumento for dividida em múltiplas linhas, o fechamento de parênteses e a abertura de chaves devem ser colocadas na mesma linha com um espaço entre eles.
 
